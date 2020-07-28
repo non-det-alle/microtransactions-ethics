@@ -1,0 +1,191 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[sorting=none]{biblatex}
+\usepackage{csquotes}
+%
+\addbibresource{references.bib}
+%
+\title{\textbf{Questioning the morality of the microtransactions business model\\ in video games}}
+\date{May 2020}
+\author{Alessandro Aimi \\Computer Ethics Class, \\Politecnico di Milano}
+%
+\begin{document}
+%
+\maketitle
+%
+\begin{abstract}
+Here goes the abstract.
+\end{abstract}
+%
+\paragraph{Introduction}
+In the last 10 years many things have changed in the way video games are sold.
+This is mainly due to the introduction of a new technology, allowing developers to place online purchases inside software, therfore video games too. 
+This business model has been called \textit{microtransactions}. 
+This new way of monetizing software was revolutionary to the video game industry: it opened new ways to sell old video game formats and gave the possibility to design new types of video games, some of which completely revolving around microtransactions. 
+As every new technology does, microtransactions left a void on what are ethical ways to employ them in the process of selling a video game.\\
+The purpose of this paper is to shed some light on the ethical issues presented by this fairly recent technology in the field of video games, in order to mark from an ethical standpoint the importance of regulating them.
+In fact, at the present time, this largely hasn't been done by many nations.
+Before introducing my ethical argumentations, I will present a summary on the ways microtransactions have been employed in video games so that every reader is able to understand the context I am referring to and its specific terminology.
+This will be followed by a brief analysis of some of the ethical issues that have emerged from an unfair use of microtransactions.
+Subsequently I will argue on the political and moral nature of videogames and on the fact that it can be combined with an unfair use of microtransactions to exploit specific people for revenue.
+I will then proceed to show that this is unethical both on an utilitarian and on a deontological framework, leading to the conclusion that we need a precise regulation of microtransactions in order to stop this.
+%
+\paragraph{Microtransactions in video games}
+In the past the staple of the video game industry was to make the user pay a price once to purchase a video game, that then could be fully played at will.
+This was someway true even at the time of arcade\footnote{Arcade games are coin-operated entertainment machines used to play video games between the 1970s and the early 1990s.} machines because, although they were purposely difficult to make you spend more coins in attempts, with the right level of skill the game could be experienced in its entirety.\\
+Nowadays in many cases this staple has changed due to various factors, such as the technological developments of the recent years, the global diffusion of video games on smartphones and the old business models not guaranteeing anymore a stable cash flow to game developers. 
+One of the biggest actors of this change was the idea to begin selling further virtual goods for real money from inside the video game. This business model is called \textit{microtransactions} and it's not limited to video games. 
+For example they can be used inside any kind of software to sell additional functionalities (often referred as \textit{premium}), but for the scope of this paper I won't elaborate on that.
+
+The possibility to pay more to enhance a video game experience is a practice that has been around for decades, as it was already implemented in some arcade games in the 1990s that let you buy upgrades, weapons, special moves and playable characters by inserting further coins than the ones you had to have already spent just to play the base game (see Technōs Japan's \textit{Double Dragon 3: The Rosetta Stone} (1990)).
+More early examples of microtransactions can be found in free online social games as Sulake's \textit{Habbo Hotel} (2001) or Linden Lab's \textit{Second Life} (2003), which created real micro economies by selling to users virtual currencies through online payments.
+This virtual money then could be used to buy cosmetic items to show off to online friends.
+
+Microtransactions as we know them today spread around 2010. They are a staple of the mobile applications market, but they are widely used in PC software and console\footnote{As concerns video gaming, consoles are computer devices specifically designed to run video games; well known examples are the Play Station, Xbox and Nintendo console series.} gaming too.
+One of the first games to popularize them was the online game \textit{Team Fortress 2} (2007), developed by Valve, which was made free in 2011 because it could just rely on online purchases in the virtual store inside the game. 
+This store sold keys to open crates obtained playing the game, containing a randomized item that the player could then use; these items could be both purely cosmetic or functional to the game. 
+This is one of the first examples of the so called \textit{loot boxes}, which are present in many games nowadays.\\ 
+Around the same time mobile app stores introduced the possibility to make payments inside applications, called \textit{micropayments} because initially envisioned to involve very small sums of money.
+Now developers had the opportunity to place optional purchases inside their apps, completely changing how mobile software could be monetized.
+While once was a common practice to publish a paid version of your app and a free one with advertisements or limited functionalities, now this could be integrated into a single free application and every additional feature was to be purchased inside.\\
+This marked the birth of the so called \textit{free-to-play} games.
+To contextualize, mobile web analytics company Flurry reported on July 7, 2011 \cite{flurry}, that based on its research, the revenue from free-to-play games had overtaken revenue from single-purchase games in Apple's App Store, for the top 100 grossing games when comparing the results for the months of January and June 2011.
+A later study found that over 92\% of revenue generated on Android and iOS in 2013 came from free-to-play games such as King's \textit{Candy Crush Saga} (2012).\\
+Many games, as Facebook's \textit{Farmville} (2009), Electronic Arts's \textit{The Simpsons: Tapped Out} (2012) and Supercell's \textit{Clash of Clans} (2012), pioneered new applications of this \textit{freemium} pricing strategy to mobile games; microtransactions were used to purchase in-game virtual currency, which could be spent to buy cosmetic or functional items, but also to eliminate the wait times attached to certain actions needed to progress the game or to buy and open loot boxes.
+
+The most recent evolution in the employment of microtransactions happened around 2017, when also many PC and console games began heavily relying on the loot box type of microtransaction. 
+Usually these games adopt a model called \textit{games-as-a-service} (\textit{GaaS}), where a long stream of monetized new content is added over time to encourage players to continue playing the game. 
+This is a way to ensure a long-term revenue from the game after its initial sale, or to support a free-to-play model. 
+Examples of this were Epic Games's \textit{Fortnite}, Valve's \textit{Counter-Strike: Global Offensive}, Electronic Arts's \textit{Star Wars: Battlefront II} and \textit{FIFA} series, Blizzard Entertainment's \textit{Overwatch} and \textit{Hearthstone} and Monolith Productions's \textit{Middle Earth: Shadow of War}.
+
+Since 2017 the sale of microtransactions has been banned in Belgium and in the Netherlands. In the United Stated and in the United Kingdom there have been efforts to try and regulate them, but no concrete progress has been achieved.
+Something was done towards regulating microtransactions in the form of loot boxes, as some nations forced transaparency on the probability ratio of obtaining items from them. Other than that, nothing more was carried on because loot boxes are not classifable as gambling if players don't get monetary prizes.
+So, as of today microtransactions are totally unregulated in most nations.
+%
+\paragraph{Ethical issues arising from microtransactions}
+In recent years microtransactions have been heavily criticized because they allow the implementation of unregulated predatory tactics in video games.
+Although many other ethical complaints were raised about video games in the past decades, I will not elaborate on them as they go out of the scope of this paper.
+As it is commonly accepted nowadays, it is often in the nature of video games to be somehow addictive on various degrees.
+Most games do not directly exploit this to increase their revenue.
+I will proceed to explain how business models related to microtransactions can explicitly exploit this property of games to be profitable.
+
+After a while - usually when players already become fond of it - the progression in many freemium mobile games becomes slow, tiring or stressful to achieve: due to the addictive nature of such games, the player is often psychologically pushed to buy items or virtual currency for real money in order to progress and obtain the satisfaction he was used to before.
+Completing a single-player game (or winning in a competitive online multi-player game) for free is often only theoretically possible, as it would require almost infinite time spent waiting or unreasonable amounts of luck. These games are often labeled as \textit{pay-to-win}.
+The issue does not lie in the free nature of the game, as if you don't pay for something you shouldn't expect anything in return.\\ 
+An ethical problem arises when we look at the distribution of purchases for user. 
+It was found that the number of people that spend money on in-game items in free-to-play mobile games ranges from 0.5\% to 6\%.
+At this point it is natural to question how the big number of, often low-quality, pay-to-win games that flooded mobile applications stores from the 2010s get most of their outstanding revenues, given that such a small percentage of players buy something in-game.
+A reasonable explanation is that this small percentage of users spend a lot of money in the game, often due to its addictive nature joined with pushy monetization strategies.
+This is supported by the numerous complaints of people, saying that themselves or their children spent an unreasonable amount of money on a freemium mobile game.
+For a better understanding, a surprisingly good exposition of how this works is given in the sixth episode of Season 18 of the harsh satirical TV series South Park, called \textit{Freemium Isn't Free}.
+This fact cannot be directly proven, because no company concerned with their image would state that the revenue for one of its games comes from a minimum portion of the users spending hundreds, or event thousands, of dollars in a free application.
+But given the premise on the addictive nature of video games and the blatant predatory tactics of freemium mobile games, it is certainly possible if not likely.
+
+A very common microtransaction type deemed as most predatory is the loot boxes mechanic. 
+As I hinted before, loot boxes (also called loot crates) are virtual containers that when opened grant a randomized item, or set of items, to the player. 
+Loot boxes can be obtained by playing the game or by buying them for real money\footnote{Most games implement some kind of virtual currency to be bought in order to shop items or loot boxes inside the game. 
+As it is just an extra layer added to the monetary transaction, I will take this for granted when talking about buying something for real money in a game.}.
+Also the way these are opened can be monetized too, for example locking them and making players pay for keys or forcing a wait time on them to be opened and offering to skip it for a price. 
+Goods inside loot boxes can be purely cosmetic or can be functional to the game mechanics. 
+Some items are more rare and others are very common and can be found many times.
+All this factors are different from game to game, making loot boxes more or less important to proceed in the game, i.e. making it more or less pay-to-win. 
+Usually this means winning against other players, as they are very common in competitive multi-player online games for PC or console. 
+These characteristics of loot boxes make them apt to build implicit \textit{paywalls}\footnote{The term paywall refers to the practice of restricting access to virtual content via a purchase of some kind.} to the game progression and as a consequence they are often used in freemium mobile games too.\\
+Here the ethical issue deepens because of the randomness of the prize, in fact "loot boxes are psychologically akin to gambling" as stated in (Drummond-Sauer 2018).
+This means that they can be highly addictive even if players are not explicitly pushed to by them by game progression.
+As happens for freemium mobile games, they lead many people to spend exceeding amounts of money.
+
+Last but not of least relevance, a big chunk of the demographic target of video games are underage people. Children are far more susceptible to psychological manipulation tactics as the ones I described.
+%
+\paragraph{Video games are inherently political and moral}
+So what exactly are video games? Usually they are described as electronic games that involve interaction with a user interface to generate visual feedback. 
+Specifically they are software aimed at entertainment.
+Video games provide one or more objectives to the player, as any game does. 
+These objectives can be clearly stated by the video game or be deduced by the context presented in it.
+Usually the main objective of a game is to win, by overcoming the challenges provided by the game itself or by other players who compete against you. \\
+Someone could argue that can exist video games that do not have any objective in them. 
+This is untrue, because even if a game is just made to show you something, similarly to some other forms of entertainment, the player will assume that the implicit objective is to look at what is presented to him and possibly try to understand it. 
+Otherwise, something that doesn't provide a form of entertainment, thus an objective, would fall out of the definition of game.
+
+From this we deduce that achieving some objective is what mainly characterizes entertainment in video games.
+This also means that to enjoy a video game, people need to follow the game rules in achieving objectives, because there is no way around it.
+So video games are artifacts politically charged, as they hold some kind of power, in the sense that they influence people that decide to get involved in them. This definition of inherent political nature and the following one of inherent moral nature are taken from (Winner 1980)\\
+The process of feeling satisfaction for completing objectives can be fairly addictive, so much that in 2018 the World Health Organization declared gaming addiction a mental disorder.
+Addiction can often lead people to do wrong things against themselves. 
+This shows that sometimes video games can hold very strong power on people, hence they are political artifacts, but that they also can be inherently moral.
+For example they can affect choices of people that approach to video games and are unknowingly susceptible to addiction. 
+
+Given that, someone could think that all video games are inherently bad because they are addictive.
+This is patently wrong and an approximation of reality, as otherwise video games would be a considerably more harmful phenomenon, considering how diffused they are nowadays.
+Clearly in the history of video games different mechanics to reward players for completing objectives have been designed and some are more effective in keeping people playing the game. 
+Hints on how some of them work are been mentioned previously.
+Which mechanics are present in a video game is a choice of the game designers, usually leaders of the development team.
+Game mechanics are fundamental in defining the success of a video game.
+This is extremely relevant, because this means that video games are politically and morally charged by design, thus that the effects of a video game on people are responsibility of the game creators.\\
+Arguing that game designers cannot foresee the consequences of game mechanics on people is incorrect, as they are competent experts and know very well how game mechanics psychologically work in order to make a successful game.
+The same goes for game publishers.
+Adding to that, design choices on video game mechanics cannot be patented and as a consequence many games share slight variations of them.
+This means that game mechanics and their effects are common knowledge between anyone interested in video games, especially game designers and publishers.
+
+I argued that is in the nature of video games, due to their objective-reward oriented mechanics, to have an intrinsic political and moral nature, and that the accountability over that is on the people developing and publishing them.
+This connotation doesn't imply that video games are bad, but it may lead to irresponsible choices towards the health of players or be exploited with the intention of wrongdoing. 
+
+\paragraph{Microtransactions need to be precisely regulated}
+As I explained, microtransactions are a business model that allows game developers to monetize content inside their video game as well as the way objectives are achieved. 
+For example the latter happens when players have the option of paying a price to remove the time needed for an action to be completed or of buying an item for real money that can help them overcome a difficult task, which can be made more expensive by not selling the item directly and putting it in loot boxes.
+Essentially this business model allows a lot of freedom in the choice of pricing strategies.
+The positive aspect of this is that it allows a "pay what you want" pricing model, where players can decide what extra content they want to buy or maybe try the video game for free and decide whether they want to purchase it or not.\\
+My argument is that this feature of microtransaction can be tied to the power-holding aspects of video games.
+It can be done by giving players, when confronted with a difficult or long task, the option of paying to skip the effort.
+Of course, this can be seen as a way of monetizing the difficulty of a video game, and I have nothing against that conceptually.
+It can be seen as buying a different game which is simpler.
+
+Problems arise when succeeding in a video game is strictly tied to microtransactions, or, in other words, players are forced to pay more in order to win more.
+Examples of this are present in some freemium mobile games or in some competitive multi-player games. 
+As I showed before, freemium games can be specifically crafted to be highly addictive and pay-to-win.
+Competitive online multi-player games can be made very pay-to-win too, in the sense that the more you pay, the more people you defeat.
+This combination of power-holding mechanics and pay-to-win aspects is very profitable for people making these games, even more if the pay-to-win part is implemented using loot-boxes, because they add an addictive "game of chance" in the process of easing the game challenge.\\
+Some people could claim that you are not forced to pay a microtransaction in a video game: if the game requires a payment to be fun, you can just refuse to do it and move on.
+Unfortunately this is not true in every case and for everyone.
+As I already hinted, some games implement very effective psychological strategies to push you to pay.
+For example making you feel bad for the time you alredy put in it and not being able to complete it, or for not being able to win against other players which are paying.
+By consequence this makes you think that paying will make you feel better.
+This process has a lot of grip on people with a weak will and low awareness of the consequences.
+This is especially true for children, who are pretty autonomous in their actions but not responsible of themselves. 
+
+Therefore, in these kind of games revenue is tied to keeping players on the game as much as possible, often exploiting addiction for profit.
+This is considered morally wrong even in an utilitarian ethics framework, usually more favorable to judge economic matters in a positive fashion. 
+In fact, these video games bring much happiness to people selling them, in the form of revenue, little happiness to the majority of people playing them for a bit and then abandoning them because of the high monetization, and deprive happiness to people spending a lot of money because of the addictive power these games hold on them.
+It is easy to see that pricing a game in a fairer way increases the total happiness, because if the game is fun will sell well anyway and will not predate on the happiness of players.
+The difference lies in the fact that making a good, fun and successful game is difficult, while to make it exploitative you can just choose addictive mechanics and a pay-to-win pricing strategy.\\
+If this wasn't enough, it is trivial to show that exploiting addiction for profit is wrong in a deontological framework as the kantian one.
+In fact by doing it you are using people addicted to the game exclusively as a mean to profit, breaking the reciprocity principle.
+
+So, are all microtransactions always unethical?
+The answer is no, because in many cases they do not exploit people for profit.
+For example if they are used to sell purely cosmetic items in video games, in many cases they are used in an ethical way.
+Also the case in which you pay to lower the difficulty of a non competitive game is ethical, but only if it doesn't require you to pay more to win more.\\
+But nonetheless there exist employments of microtransactions that are patently unethical, so I claim that they need precise regulation.
+In fact they aren't regulated in many nations, and almost never strictly.
+Sometimes this is tackled by the self-regulation mechanisms used in the video game industry, but not always, thus not effectively.
+Than we need to explicitly regulate microtransactions, to force game developers and producers to assume their responsibility in the creation and sale of video games.\\
+Again, this problem could also be solved by regulating game mechanics directly, but I think that this is wrong because it would affect the freedom of expression in the process of creating a video game.
+I think that freedom of expression in video games should be protected because thay are very powerful medium which can be used to make you empathize with a story or with a message.
+
+To summarize, I argued that microtransactions can be used to exploit people for revenue, by combining the most power-holding video game mechanics with pay-to-win pricing tecniques, and that this is highly unethical, so microtransactions need to be precisely regulated.
+
+\paragraph{Conclusions}
+Microtransactions led to a revolution of business models in the video game industry and as a consequence they left an ethical void on what new ways of monetizing video games are ethically acceptable.
+I brought examples of how some video games can be fairly addictive and I argumented that this is because of the inherently political and moral nature of video games, due to their objective-reward oriented mechanics.
+This characteristic of video games can be used, joint with microtransactions, to exploit some people for revenue.
+This is ethically wrong both in an utilitarian and in a deontological framework, and the responsibility of that lies with the developers and publishers, because how the political and moral nature of a videogame affect players is a design choice, as it is the unfair usage of microtransactions.
+My point is that we need a precise regulation of microtransactions in order to stop these exploitation techniques and to force video game developers and publishers to assume their responsability on the consequences of these unfair business models.
+
+Due to the recency of the introduction of microtransactions in technology, there is much to do yet from an ethical standpoint. 
+In the future it would be interesting to inquire what is an ethical microtransactions business model and try to better define its features.
+Also it would be valuable to determine in what ways different monetization strategies affects how a video game is played and what are the ethical consequences.
+%
+\printbibliography
+%
+\end{document}
